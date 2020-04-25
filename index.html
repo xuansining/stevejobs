@@ -3,17 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>htmlDemo</title>
 </head>
 
 <body>
     <h1>史蒂夫·乔布斯</h1>
-    <h2>个人简介</h2>
+    <u class="">
+        <li><a href="#self"> 个人简介</a></li>
+        <li><a href="#events"> 重要事件</a></li>
+        <li><a href="#awards"> 主要成就</a></li>
+        <li><a href="#movies"> 有关著作和电影</a></li>
+        <li><a href="#pic"> 生活照</a></li>
+    </u>
+
+    <h2 id="self">个人简介</h2>
     <p>史蒂芬·保罗·乔布斯（英语：Steven Paul Jobs，1955年2月24日－2011年10月5日），通称史蒂夫·乔布斯（英语：Steve
         Jobs），是一名美国企业家、营销家，苹果公司的联合创始人之一，曾任董事长及首席执行官职位，NeXT创办人及首席执行官，也是皮克斯动画的创办人并曾任首席执行官，2006年为华特迪士尼公司的董事会成员。2017年9月苹果发布会举行的地方，以他命名为
         Steve Jobs Theater </p>
-    <h2>重要事件</h2>
+    <h2 id="events">重要事件</h2>
     <ol>
         <li>在高中时期，乔布斯通过朋友比尔·费尔南德斯（Bill Fernandez）认识了后来的Apple
             I的创作者斯蒂夫·沃兹尼亚克。二人在这段时期一起听音乐和制作电子仪器，其中最著名的是被称作蓝盒子的盗打电话设备。二人销售此设备从而赚到了一笔钱</li>
@@ -29,7 +38,7 @@
         <li>2003年10月，在一次例行的肾脏和输尿管检查中，医生无意中在结果上发现了他的胰脏肿瘤。</li>
         <li>2011年10月4日，首席执行官提姆·库克第一次产品发表会，推出iPhone 4S。在2011年10月5日下午3时左右，乔布斯于美国加州的寓所逝世。</li>
     </ol>
-    <h2>主要成就</h2>
+    <h2 id="awards">主要成就</h2>
     <table>
         <tr>
             <td>1970</td>
@@ -56,16 +65,22 @@
             <td> 乔布斯被《财富》杂志评为了年度最强有力商人</td>
         </tr>
     </table>
-    <h2>有关著作和电影</h2>
+    <h2 id="movies">有关著作和电影</h2>
     <ul>
         <li>《Steve Jobs》</li>
         <li>《硅谷传奇》</li>
         <li>《史蒂夫·乔布斯 (电影)》</li>
     </ul>
-    <h2>生活照</h2>
-    <img src="/images/1.jpg" alt="">
-    <img src="/images/2.jpg" alt="">
-    <img src="/images/3.jpg" alt="">
+    <h2 id="pic">生活照</h2>
+    <div style="width: 500px ;max-width: 100%;"><a href="/images/1.jpg" target="_blank"><img style="max-width: 100%;"
+                src="/images/1.jpg" alt=""></a>
+    </div>
+    <div style="width: 500px ;max-width: 100%;"><a href="/images/2.jpg" target="_blank"><img style="max-width: 100%;"
+                src="/images/2.jpg" alt=""></a>
+    </div>
+    <div style="width: 500px ;max-width: 100%;"><a href="/images/3.jpg" target="_blank"><img style="max-width: 100%;"
+                src="/images/3.jpg" alt=""></a>
+    </div>
 </body>
 
 </html>
